@@ -56,9 +56,6 @@ export default function Home() {
         <p className="text-black  text-center mb-20">
       
 
-          <Link href="/Report" className="items-center hover:bg-green-700">
-            <a className="text-gray-100 hover:bg-purple-400 text-black  items-center mb-20">Reports</a>
-          </Link>
           <div>
             {
               answeredQuestions.map(item => {
